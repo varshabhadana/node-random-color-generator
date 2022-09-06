@@ -1,4 +1,4 @@
-import { argv } from 'node:process';
+import { argv, stdin } from 'node:process';
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
@@ -17,4 +17,9 @@ const myStr = `###############################
 ###############################
 ###############################`;
 
+/* if (argv[2] === 'ask') {
+  console.log(`provide name of the color and the luminosity`);
+} else {
+  console.log(chalk.hex(randomHex).bold(myStr));
+} */
 console.log(chalk.hex(randomHex).bold(myStr));
