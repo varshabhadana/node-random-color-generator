@@ -1,4 +1,3 @@
-/* import { argv } from 'node:process'; */
 import chalk from 'chalk';
 import randomcolor from 'randomcolor';
 
